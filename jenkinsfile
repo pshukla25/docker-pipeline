@@ -10,7 +10,7 @@ node {
     }
 
     stage('Test image') {
-            sh 'echo "Tests passed"'
+            sh 'echo "Test passed"'
     }
 
     stage('Push image') {
